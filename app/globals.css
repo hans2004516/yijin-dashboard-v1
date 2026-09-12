@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+
+:root {
+  --background: #f4f0e8;
+  --foreground: #19322d;
+}
+
+* { box-sizing: border-box; }
+
+html { background: var(--background); }
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", system-ui, sans-serif;
+}
+
+button, input, select { font: inherit; }
+
+::selection { background: #b46346; color: white; }

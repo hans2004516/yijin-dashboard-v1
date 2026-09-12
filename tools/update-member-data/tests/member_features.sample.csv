@@ -1,0 +1,3 @@
+member_id,total_tx,total_amount,avg_amount,active_years,tx_per_year,avg_gap_days,sale_ratio,premium_ratio,top_category,top_cat_ratio,is_loyal,姓名
+M-TEST-001,4,6000,1500,4,1,120,0.25,0.25,枕頭,0.75,1,測試甲
+M-TEST-002,2,2200,1100,1,2,30,0,0,生活用品類,1,0,測試乙

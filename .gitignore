@@ -1,0 +1,59 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/.next-gcp/
+/.vinext/
+/out/
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# local environment
+.env*
+!.env.example
+.venv*/
+__pycache__/
+*.py[cod]
+*.tsbuildinfo
+
+# credentials and private member data
+*service-account*.json
+*-credentials.json
+*-key.json
+/gcp/local-gcs/
+/gcp/**/raw/
+/gcp/**/processed/
+/private-data/
+/deidentified-output/
+*.deidentified.csv
+*.deidentified.*.csv
+*.deidentified.csv.report.json
+*.deidentified.*.csv.report.json
+*.deid-secret
+
+# deployment and generated files
+.vercel
+next-env.d.ts
+/dist/
+/.wrangler/
+/outputs/
+/work/

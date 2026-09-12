@@ -1,0 +1,16 @@
+.git
+.next
+.next-gcp
+.vinext
+.wrangler
+dist
+node_modules
+.env
+.env.*
+!.env.example
+*.log
+gcp/member-analysis/testdata
+tools/*
+!tools/deidentify-member-csv
+tools/deidentify-member-csv/*
+!tools/deidentify-member-csv/deidentify.py
